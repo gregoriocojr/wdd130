@@ -1,0 +1,14 @@
+body { background-color: #ada2a265; font-family: Arial, sans-serif;}
+body {
+    text-align: justify;
+}
+
+.container {
+    margin-right: 200px;
+}
+h1 {color: #263f619d; font-size: 36px;}
+.left-align { display: inline-block; float: left;}
+h1, h2 {margin-top: 10px; padding: 0px;}
+h1 {margin-bottom: 10px;}
+h2 {margin-top: 5px;}
+img {float: left; margin-right: 10px;}
