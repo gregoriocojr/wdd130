@@ -74,7 +74,6 @@ main section img{
     height: 725px;
     background-color: rgb(215, 193, 165);
     margin-top: 200px;
-    margin-bottom: 200px;
 }
 
 .book, .join{
@@ -100,7 +99,6 @@ main section img{
     background-color: #2a9d8f;
     line-height: 1.5em;
     padding: 35px;
-    margin-top: 200px;
 }
 
 .msg h2{
