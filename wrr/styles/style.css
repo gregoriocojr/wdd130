@@ -138,7 +138,6 @@ main section img{
 #background {
     height: 725px;
     background-color: rgb(215, 193, 165);
-    /*margin-top: 200px;*/
     grid-column: 1/11;
     grid-row: 4/9;
 }
