@@ -220,7 +220,7 @@ footer p {
 .p2-grid {
     display: grid;
     grid-template-columns: 1fr .5fr 1fr;
-    grid-template-rows: repeat(16, auto);
+    grid-template-rows: repeat(16 auto);
     /* max-width: 1000px; */
     border-radius: 40px;
     border: #89023e solid 5px;
