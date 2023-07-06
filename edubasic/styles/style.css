@@ -3,7 +3,7 @@
 body { 
 	/* max-width: 1000px; */
 	margin: 0 auto;
-    background-color: #e5f1db;
+    background-color: #c7d9b7;
     font-family: "ABeeZee", Arial, Helvetica, sans-serif;
     font-size: 22px;
     padding: 40px;
@@ -49,14 +49,14 @@ nav {
 }
 
 nav a:hover {
-    color: #d9c2a3;
+    color: #c7d9b7;
     font-size: 1.4em;
     font-weight: bold;
 }
 
 nav a {
     text-align: center;
-    color: darkcyan;
+    color: #89023e;
     text-decoration: none;
     padding: 25px;
     transition: font-size 0.2s ease;
@@ -69,7 +69,7 @@ nav a {
 }
 
 #hero-tgline {
-    color: darkblue;
+    color: #89023e;
     text-align: center;
 }
 
@@ -79,13 +79,13 @@ nav a {
 }
 
 #hero-tgline h4 {
-    color: darkblue;
+    color: #89023e;
     font-style: italic;
     margin-top: -40px;
 }
 
 #hero-msg {
-    color: darkgreen;
+    color: #cc7178;
     text-align: center;
 }
 
@@ -180,7 +180,7 @@ footer {
     margin: 0 auto;
     /* max-width: 1000px; */
     background-color: whitesmoke;
-    color: darkcyan;
+    color: #89023e;
     padding: 5px;
     display: flex;
     justify-content: space-around;
@@ -190,12 +190,12 @@ footer {
 }
 
 footer a {
-    color: darkcyan;
+    color: #89023e;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #d9c2a3;
+    color: #cc7178;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -220,7 +220,7 @@ footer p {
 .p2-grid {
     display: grid;
     grid-template-columns: 1fr .5fr 1fr;
-    grid-template-rows: repeat(16 auto);
+    grid-template-rows: repeat(16, auto);
     /* max-width: 1000px; */
     border-radius: 40px;
     border: #89023e solid 5px;
@@ -233,6 +233,8 @@ footer p {
     grid-column: 1/4;
     grid-row: 1/2;
     text-align: left;
+    font-weight: bolder;
+    color: #89023e;
 }
 
 #p2-intro {
@@ -335,6 +337,8 @@ footer p {
     margin: 0;
     font-size: .8em;
     text-decoration: underline;
+    font-weight: bold;
+    color: #89023e;
 }
 
 
@@ -370,6 +374,8 @@ footer p {
     grid-column: 1/4;
     grid-row: 1/2;
     text-align: left;
+    font-weight: bolder;
+    color: #89023e;
 }
 
 #p3-intro {
@@ -474,6 +480,8 @@ footer p {
     margin: 0;
     font-size: .8em;
     text-decoration: underline;
+    font-weight: bold;
+    color: #89023e;
 }
 
 #p3-intro,
