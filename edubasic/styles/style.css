@@ -3,7 +3,7 @@
 body { 
 	/* max-width: 1000px; */
 	margin: 0 auto;
-    background-color: #c7d9b7;
+    /*background-color: #c7d9b7;*/
     font-family: "ABeeZee", Arial, Helvetica, sans-serif;
     font-size: 22px;
     padding: 40px;
@@ -15,14 +15,14 @@ body {
     padding: 5px;
     align-items: center;
     justify-content: center;
-    background: whitesmoke;
+    background: #ffd9da;
     border-radius: 40px;
     border: solid #89023e 5px;
 }
 
 .logo {
     border-radius: 50%;
-    border: 5px solid #cc7178;
+    border: 5px solid #c7d9b7;
     width: 150px;
     transition: transform 0.3s ease;
 }
@@ -49,14 +49,14 @@ nav {
 }
 
 nav a:hover {
-    color: #c7d9b7;
-    font-size: 1.4em;
+    color: #89023e;
+    font-size: 1.8em;
     font-weight: bold;
 }
 
 nav a {
     text-align: center;
-    color: #89023e;
+    color: #cc7178;
     text-decoration: none;
     padding: 25px;
     transition: font-size 0.2s ease;
@@ -69,17 +69,19 @@ nav a {
 }
 
 #hero-tgline {
-    color: #89023e;
+    color: #cc7178;
     text-align: center;
 }
 
 .home-title {
     font-size: 2.5em;
     font-weight: bold;
+    text-decoration-color: #c7d9b7;
+    text-decoration: underline overline;
 }
 
 #hero-tgline h4 {
-    color: #89023e;
+    color: #cc7178;
     font-style: italic;
     margin-top: -40px;
 }
@@ -100,16 +102,16 @@ nav a {
     transition: transform .3s;
 }
 
-#hero-img:hover {
+/*#hero-img:hover {
     opacity: .4;
     transform: scale(1.1);
-}
+}*/
 
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto;
-    background: whitesmoke;
+    background: #ffd9da;
     margin: auto;
     margin-bottom: 40px;
     padding: 40px;
@@ -123,7 +125,6 @@ nav a {
     border-radius: 40px;
     width: 100%;
     margin-bottom: 20px;
-    transition: transform .5s;
 }
 
 .reading-boy {
@@ -132,12 +133,12 @@ nav a {
     border-radius: 40px;
     width: 100%;
     margin-top: 20px;
-    transition: transform .3s;
 }
 
 .reading-girl:hover, .reading-boy:hover {
-    opacity: .4;
-    transform: scale(1.1);
+    opacity: 1;
+    transform: scale(1.05);
+    transition: transform .5s;
 }
 
 .quote1 {
@@ -145,7 +146,7 @@ nav a {
     grid-row: 1/2;
     margin-left: 20px;
     font-style: italic;
-    color: #89023e;
+    color: #cc7178;
 }
 
 .author1 {
@@ -154,6 +155,7 @@ nav a {
     margin-left: 20px;
     margin-top: -10px;
     font-size: .8em;
+    color: #89023e;
     text-decoration: underline;
 }
 
@@ -163,7 +165,7 @@ nav a {
     text-align: right;
     margin-right: 20px;
     font-style: italic;
-    color: #89023e;
+    color: #cc7178;
 }
 
 .author2 {
@@ -173,6 +175,7 @@ nav a {
     margin-top: -10px;
     margin-right: 20px;
     font-size: .8em;
+    color: #89023e;
     text-decoration: underline;
 }
 
@@ -180,7 +183,7 @@ footer {
     margin: 0 auto;
     /* max-width: 1000px; */
     background-color: whitesmoke;
-    color: #89023e;
+    color: #cc7178;
     padding: 5px;
     display: flex;
     justify-content: space-around;
@@ -190,13 +193,13 @@ footer {
 }
 
 footer a {
-    color: #89023e;
+    color: #cc7178;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #cc7178;
-    font-size: 1.2em;
+    color: #89023e;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -207,7 +210,7 @@ footer p {
 
 .logo-footer {
     border-radius: 50%;
-    border: 5px solid #cc7178;
+    border: 5px solid #c7d9b7;
     width: 100px;
     transition: transform 0.3s ease;
 }
@@ -234,7 +237,9 @@ footer p {
     grid-row: 1/2;
     text-align: left;
     font-weight: bolder;
-    color: #89023e;
+    color: #cc7178;
+    text-decoration-color: #c7d9b7;
+    text-decoration: underline;
 }
 
 #p2-intro {
@@ -338,7 +343,7 @@ footer p {
     font-size: .8em;
     text-decoration: underline;
     font-weight: bold;
-    color: #89023e;
+    color: #cc7178;
 }
 
 
@@ -375,7 +380,9 @@ footer p {
     grid-row: 1/2;
     text-align: left;
     font-weight: bolder;
-    color: #89023e;
+    color: #cc7178;
+    text-decoration-color: #c7d9b7;
+    text-decoration: underline;
 }
 
 #p3-intro {
@@ -481,7 +488,7 @@ footer p {
     font-size: .8em;
     text-decoration: underline;
     font-weight: bold;
-    color: #89023e;
+    color: #cc7178;
 }
 
 #p3-intro,
